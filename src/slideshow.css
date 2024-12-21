@@ -1,0 +1,32 @@
+.carousel-item img {
+    /* max-height: 50px; */
+    width: 100%;
+    image-resolution: absolute;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel-caption p {
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel {
+    margin-top: 20px;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: #000;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+  

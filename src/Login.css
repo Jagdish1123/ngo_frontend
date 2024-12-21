@@ -1,0 +1,129 @@
+.login {
+	/* Bootstrap variables */
+	--bs-body-color: #333b7b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-form-card-bg: #ffffff;
+	--ezy-form-card-shadow: 0 16px 24px rgba(197, 206, 222, 0.25);
+
+	background-color: var(--bs-body-bg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+/* Gray Block Style */
+.gray .login,
+.login.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-form-card-bg: #f6f6f6;
+	--ezy-form-card-shadow: 0 16px 24px rgba(209, 223, 247, 0.25);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .login,
+.login.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+	--bs-dark-rgb: 255, 255, 255;
+
+	/* Easy Frontend variables */
+	--ezy-form-card-bg: #253140;
+	--ezy-form-card-shadow: none;
+}
+
+/* Dark Block Style */
+.dark .login,
+.login.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+	--bs-dark-rgb: 255, 255, 255;
+
+	/* Easy Frontend variables */
+	--ezy-form-card-bg: #162231;
+	--ezy-form-card-shadow: none;
+}
+
+.login-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+.login-form-card {
+	background-color: var(--ezy-form-card-bg);
+	border: none;
+	box-shadow: var(--ezy-form-card-shadow);
+	border-radius: 15px;
+}
+
+.login-form-card * {
+	color: var(--bs-body-color);
+}
+
+.login .form-control {
+	min-height: 48px;
+	line-height: 40px;
+	border-color: transparent;
+	background: rgba(163, 190, 241, 0.14);
+	border-radius: 10px;
+	color: var(--bs-body-color);
+}
+
+.login .form-control:focus {
+	border-color: var(--ezy-theme-color);
+	box-shadow: none;
+}
+
+.login-btn-submit {
+	padding: 12px 30px;
+	background-color: #333b7b;
+	color: #ffffff;
+}
+
+.login-btn-submit:hover {
+	color: #ffffff;
+}
+
+.login-btn {
+	padding: 12px 30px;
+}
+
+.login-btn,
+.login-btn * {
+	color: #ffffff;
+}
+
+.login-btn:hover {
+	color: #ffffff;
+}
+
+.login-or-separator {
+	position: relative;
+}
+
+.login-or-separator hr {
+	border-color: var(--bs-body-color);
+	opacity: 0.15;
+}
+
+.login-or-separator span {
+	background-color: var(--ezy-form-card-bg);
+	color: var(--bs-body-color);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+	opacity: 0.8;
+}
+

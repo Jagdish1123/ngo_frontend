@@ -1,0 +1,114 @@
+.payment {
+	/* Bootstrap variables */
+	--bs-body-color: #373572;
+	--bs-body-bg: #fff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-shadow: 0px 4px 44px rgba(159, 190, 218, 0.37);
+
+	background-color: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 60px 0 0 0;
+	position: relative;
+}
+
+@media (min-width: 768px) {
+	.payment {
+		padding: 100px 0 0 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .payment,
+.payment.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: #fffbf7;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .payment,
+.payment.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-shadow: 0px 4px 44px rgba(0, 0, 0, 0.37);
+}
+
+/* Dark Block Style */
+.dark .payment,
+.payment.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-shadow: 0px 4px 44px rgba(0, 0, 0, 0.37);
+}
+
+.payment-heading {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 38px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.payment-heading {
+		font-size: 70px;
+		line-height: 85px;
+	}
+}
+
+.payment-sub-heading {
+	color: var(--bs-body-color);
+	font-size: 22px;
+	line-height: 1.5;
+	opacity: 0.8;
+}
+
+.payment-content-wrapper {
+	padding-bottom: 60px;
+}
+
+@media (min-width: 991px) {
+	.payment-content-wrapper {
+		padding-top: 60px;
+		padding-bottom: 130px;
+	}
+}
+
+.payment-btn {
+	padding: 12px 30px;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+	color: #fff;
+	box-shadow: var(--ezy-shadow);
+}
+
+.payment-btn:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+.payment-shape-1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.payment-shape-2 {
+	position: absolute;
+	bottom: 0;
+	left: 25%;
+	top: 0;
+}
+
+@media (min-width: 991px) {
+	.payment-shape-2 {
+		left: 45%;
+	}
+}
