@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Project Name: Y4D Foundation NGO Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+The Y4D Foundation NGO Website is a React-based web application designed to showcase and promote the efforts and initiatives of the Y4D Foundation. The platform provides essential information about the NGO, including its mission, ongoing projects, events, and how users can get involved or contribute.
 
-## Available Scripts
+### Live Demo
+You can explore the project live at [Y4D Foundation NGO Website - Live Demo](https://ngo-frontend-gray.vercel.app/)
 
-In the project directory, you can run:
+## Features
+- Overview of Y4D Foundation's mission and vision.
+- Detailed sections for projects, events, and causes supported by Y4D Foundation.
+- Contact form for inquiries and volunteer registration.
+- Responsive design ensuring accessibility on all devices.
 
-### `npm start`
+## Additional Features Implemented
+- **Router Setup**: Developed a Router setup using React Router for navigating between key pages like `Payment`, `Pay`, `Login`, `Register`, `Contact Us`, `About Us`, `Services`, `Gallery`, `Blog`, `Apply`, and `Submit`.
+- **Dynamic Page Navigation**: Created routes for easy navigation between sections such as About, Services, Gallery, and Blog.
+- **Error Handling**: Implemented a `404 Not Found` page for unmatched routes (`HttpCodes4`).
+- **Payment System**: Added `Payment` and `Pay` components to facilitate payment-related functionalities.
+- **Auth Pages**: Integrated `Login` and `Register` pages for user authentication and registration.
+- **Apply & Submit**: Created `Apply` and `Submit` pages for application-related functionalities.
+- **Styling**: Used Tailwind CSS for a consistent and responsive UI design.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- React.js
+- Tailwind CSS
+- JavaScript
+- Vite for build setup
+- Hosting on Vercel
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ngo-frontend.git
+   cd ngo-frontend
