@@ -30,8 +30,4 @@ You can explore the project live at [Y4D Foundation NGO Website - Live Demo](htt
 
 
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/ngo-frontend.git
-   cd ngo-frontend
+
